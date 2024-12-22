@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    overflow-x: auto;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.description {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.styling, .styling-norm {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 200px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.splash-norm {
+    height: 700px;
+    background-image: url("../images/banner.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 0;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+.splash-norm {
+    min-width: 100px;
+}
+
+.logo-img {
+    width: 50%;
+}
+
+.btn-main {
+    background-color: red;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 50px;
+    min-width: 50px;
+}
+
+.btn-main:hover {
+    opacity: 40%;
+    border-radius: 5px;
+}
+
+a span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+}
+
+a span:after {
+    content: "\00b7";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+a:hover span {
+    padding-right: 1em;
+    color: red;
+}
+
+a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@media only screen and (max-width: 765px) {
+    /* Body */
+    body {
+        min-width: 320px;
+        margin: 0 auto;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description, .menu-item-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Meet Team */
+    .meet-team-container, .visit-us-container {
+        flex-direction: column;
+    }
+
+    /* Order */
+    .order-container {
+        max-width: 500px;
+    }
+
+}

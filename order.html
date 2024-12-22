@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/rewards.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/learn_more.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/visit_us.css">
+    <link rel="stylesheet" href="styles/meet_team.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/order.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+          rel="stylesheet">
+    <title>Ervin Elzie's E-Commerce Template</title>
+</head>
+
+<body>
+
+<header class="header">
+
+    <nav class="nav-bar">
+
+        <div class="nav-bar__image">
+            <a href="index.html"><img class="nav-bar__logo" src="images/logo.png" alt="Plant Bae Logo"></a>
+        </div>
+
+        <a href="index.html" class="nav-bar__button"><span>HOME</span></a>
+        <a href="menu.html" class="nav-bar__button"><span>MENU</span></a>
+        <a href="order.html" class="nav-bar__button"><span>ORDER</span></a>
+        <a href="https://veganhealth.org/" class="nav-bar__button"><span>NUTRITION FACTS</span></a>
+        <a href="about.html" class="nav-bar__button"><span>ABOUT US</span></a>
+        <a href="contact.html" class="nav-bar__button"><span>CONTACT</span></a>
+    </nav>
+
+    <div class="splash-norm">
+        <div class="styling-norm">
+            <a href="index.html"><img class="logo-img" src="images/logo.png" alt="Plant Bae Logo"></a>
+        </div>
+    </div>
+
+</header>
+
+<div class="order-container">
+
+    <form class="order-form" action="#" method="post">
+
+        <fieldset class="order-form__section">
+
+            <legend class="legend-title">Contact Information</legend>
+            <div>
+                <label class="form-labels" for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required aria-label="First Name">
+            </div>
+            <div>
+                <label class="form-labels" for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required aria-label="Last Name">
+            </div>
+            <div>
+                <label class="form-labels" for="address1">Address Line 1:</label>
+                <input type="text" id="address1" name="address1" required aria-label="Address Line 1">
+            </div>
+            <div>
+                <label class="form-labels" for="address2">Address Line 2:</label>
+                <input type="text" id="address2" name="address2" aria-label="Address Line 2">
+            </div>
+            <div>
+                <label class="form-labels" for="city">City:</label>
+                <input type="text" id="city" name="city" required aria-label="City">
+            </div>
+            <div>
+                <label class="form-labels" for="state">State/Province:</label>
+                <select id="state" name="state" required aria-label="State/Province">
+                    <option value="" disabled selected>Select State/Province</option>
+
+                </select>
+            </div>
+            <div>
+                <label class="form-labels" for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" pattern="[0-9]{5}" title="Five-digit ZIP Code" required
+                       aria-label="Zip Code">
+            </div>
+            <div>
+                <label class="form-labels" for="pnumber">Phone Number:</label>
+                <input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{10}" title="10-digit phone number" required
+                       aria-label="Phone Number">
+            </div>
+
+        </fieldset>
+
+        <fieldset class="order-form__section">
+
+            <legend class="legend-title">DRINKS - COFFEE - TEAS</legend>
+
+            <section>
+
+                <div class="menu-item-img-container">
+                    <img class="menu-item-img" src="images/fooditemsmenu/succulent.jpg" alt="Menu Item 1">
+                    <div class="menu-item-text-container">
+                        <h2 class="title">"I AM SUCCULENT"</h2>
+                        <p class="description">
+                            GRAPEFRUIT, APPLE, CELERY, MINT
+                        </p>
+                    </div>
+                </div>
+
+                <label class="form-labels" for="I-AM-SUCCULENT">
+                    <br>
+                    QUANTITY:
+                    <input type="number" name="I-AM-SUCCULENT" class="quantity" id="I-AM-SUCCULENT" required>
+                </label>
+
+                <br>
+
+                <div class="menu-item-img-container">
+                    <img class="menu-item-img" src="images/fooditemsmenu/plnetiful.jpg" alt="Menu Item 2">
+                    <div class="menu-item-text-container">
+                        <h2 class="title">"I AM PLENTIFUL"</h2>
+                        <p class="description">
+                            CRANBERRY, POMEGRANATE, BEET, GRAPE, CARROT, APPLE, GINGER
+                        </p>
+                    </div>
+                </div>
+
+                <label class="form-labels" for="I-AM-PLENTIFUL">
+                    <br>
+                    QUANTITY:
+                    <input type="number" name="I-AM-PLENTIFUL" class="quantity" id="I-AM-PLENTIFUL" required>
+                </label>
+
+                <br>
+
+                <div class="menu-item-img-container">
+                    <img class="menu-item-img" src="images/fooditemsmenu/espresso.jpg" alt="Menu Item 2">
+                    <div class="menu-item-text-container">
+                        <h2 class="title">"I AM AWAKE"</h2>
+                        <p class="description">
+                            ESPRESSO
+                        </p>
+                    </div>
+                </div>
+
+                <label class="form-labels" for="I-AM-AWAKE">
+                    <br>
+                    QUANTITY:
+                    <input type="number" name="I-AM-AWAKE" class="quantity" id="I-AM-AWAKE" required>
+                </label>
+
+            </section>
+
+        </fieldset>
+
+        <fieldset class="order-form__section">
+
+            <legend class="legend-title">Allergies</legend>
+
+            <div>
+                <label class="form-labels">
+                    <input type="radio" name="allergies" value="yes" aria-label="Yes, I have allergies">
+                    Yes
+                </label>
+                <label class="form-labels">
+                    <input type="radio" name="allergies" value="no" aria-label="No, I don't have allergies">
+                    No
+                </label>
+            </div>
+            <div>
+                <label class="form-labels" for="extra_allergies">
+                    Please specify:
+                </label>
+
+                <br>
+
+                <textarea name="extra_allergies" id="extra_allergies" rows="3" cols="40"
+                          aria-label="Specify allergies if any">
+
+                </textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="order-form__section">
+
+            <legend class="legend-title">Additional Sauces</legend>
+
+            <div>
+                <input type="checkbox" name="sauces" value="" id="sauceone">
+                <label class="form-labels" for="sauceone">Tzatziki</label>
+                <input type="checkbox" name="sauces" value="" id="saucetwo">
+                <label class="form-labels" for="saucetwo">Harissa Aioli</label>
+                <input type="checkbox" name="sauces" value="0" id="saucethree">
+                <label class="form-labels" for="saucethree">Tahini Dressing</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="order-form__section">
+            <legend class="legend-title">Additional Requests</legend>
+            <div>
+
+                <label class="form-labels" for="extra_requests">
+                    Anything else you'd like to add?
+                </label>
+
+                <br>
+
+                <textarea name="extra_requests" id="extra_requests" rows="3" cols="40" aria-label="Additional Requests">
+                </textarea>
+
+            </div>
+        </fieldset>
+
+        <fieldset class="order-form__section">
+
+            <legend class="legend-title">Credit Card Information</legend>
+
+            <div>
+                <label class="form-labels" for="cardholderfname">Cardholder First Name:</label>
+                <input type="text" name="cardholderfname" id="cardholderfname" required
+                       aria-label="Cardholder First Name">
+            </div>
+            <div>
+                <label class="form-labels" for="cardholderlname">Cardholder Last Name:</label>
+                <input type="text" name="cardholderlname" id="cardholderlname" required
+                       aria-label="Cardholder Last Name">
+            </div>
+            <div>
+                <label class="form-labels">Is your Billing Address the same as your Delivery Address?</label><br>
+                <label class="form-labels">
+                    <input type="radio" name="baddressconfirm" value="yes"
+                           aria-label="Yes, Billing Address is the same"> Yes</label>
+                <label class="form-labels"><input type="radio" name="baddressconfirm" value="no"
+                                                  aria-label="No, Billing Address is different"> No</label>
+            </div>
+            <div>
+                <label class="form-labels" for="billingaddress1">Address Line 1:</label>
+                <input class="form-labels" type="text" name="billingaddress1" id="billingaddress1" required
+                       aria-label="Billing Address Line 1">
+            </div>
+            <div>
+                <label class="form-labels" for="billingaddress2">Address Line 2:</label>
+                <input type="text" name="billingaddress2" id="billingaddress2" aria-label="Billing Address Line 2">
+            </div>
+            <div>
+                <label class="form-labels" for="billingcity">City:</label>
+                <input type="text" name="billingcity" id="billingcity" required aria-label="Billing City">
+            </div>
+            <div>
+                <label class="form-labels" for="billingstate">State/Province:</label>
+                <select id="billingstate" name="billingstate" required aria-label="Billing State/Province">
+                    <option value="" disabled selected>Billing Select State/Province</option>
+
+                </select>
+            </div>
+            <div>
+                <label class="form-labels" for="billing_zipcode">Zip Code:</label>
+                <input type="number" name="billing_zipcode" id="billing_zipcode" required aria-label="Billing Zip Code">
+            </div>
+            <div>
+                <label class="form-labels" for="card_number">Card Number:</label>
+                <input type="text" name="card_number" id="card_number" required aria-label="Credit Card Number">
+            </div>
+            <div>
+                <label class="form-labels" for="expiry_date">Expiry Date:</label>
+                <input type="date" name="expiry_date" id="expiry_date" required aria-label="Credit Card Expiry Date">
+            </div>
+            <div>
+                <label class="form-labels" for="cvv">CVV:</label>
+                <input type="text" name="cvv" id="cvv" required maxlength="4" aria-label="Credit Card CVV">
+            </div>
+        </fieldset>
+
+        <div class="form-submit-container">
+            <input class="form-submit" type="submit" value="Submit" aria-label="Submit Order">
+        </div>
+    </form>
+
+
+</div>
+
+<footer class="footer">
+    <nav class="footer__bar">
+
+        <div class="footer__nav-image">
+            <a href="index.html"><img class="banner-img" src="images/logo.png" alt="Plant Bae Logo"></a>
+        </div>
+
+        <a href="index.html" class="footer__nav-button"><span>HOME</span></a>
+        <a href="menu.html" class="footer__nav-button"><span>MENU</span></a>
+        <a href="order.html" class="footer__nav-button"><span>ORDER</span></a>
+        <a href="https://veganhealth.org/" class="footer__nav-button"><span>NUTRITION FACTS</span></a>
+        <a href="about.html" class="footer__nav-button"><span>ABOUT US</span></a>
+        <a href="contact.html" class="footer__nav-button"><span>CONTACT</span></a>
+
+    </nav>
+    <p class="footer__description">&copy; 2024 Plant Bae. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

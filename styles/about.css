@@ -1,0 +1,38 @@
+.about-description {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0;
+    color: white;
+}
+
+.about-styling {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-splash {
+    height: 500px;
+    background-image: url("../images/team/cafe.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+.about-splash {
+    width: 100%;
+    min-width: 100px;
+}
+
+.about-logo-img {
+    width: 25%;
+}

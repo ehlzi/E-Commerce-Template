@@ -1,0 +1,49 @@
+.visit-us {
+    padding: 1%;
+}
+
+.visit-us__container {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background-color: ghostwhite;
+}
+
+.visit-us__text-container {
+    margin: 1%;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+.visit-us__image {
+    width: 50%;
+}
+
+.visit-us__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.visit-us__description {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.about-map {
+    height: 500px;
+    background-image: url("../images/team/map.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}

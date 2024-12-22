@@ -1,0 +1,52 @@
+.header {
+}
+
+.header-splash {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+.header-splash video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-splash__content {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 200px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.header-splash__logo {
+    width: 50%;
+}
+
+.header-splash__order-button {
+    background-color: red;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 50px;
+    min-width: 50px;
+}
+
+.header-splash__order-button:hover {
+    opacity: 40%;
+    border-radius: 5px;
+}

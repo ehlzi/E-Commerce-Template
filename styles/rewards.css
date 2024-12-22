@@ -1,0 +1,31 @@
+.rewards__elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.rewards__image {
+    width: 5%;
+}
+
+/* Rewards Section */
+.rewards {
+    padding: 1%;
+}
+
+.rewards__image {
+    transition: transform 0.3s ease;
+}
+
+.rewards__image:hover {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 765px) {
+
+    .rewards__image {
+        width: 10%;
+    }
+
+}

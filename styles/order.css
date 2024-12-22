@@ -1,0 +1,71 @@
+/* Order */
+.order-form {
+    width: 100%;
+}
+
+.form-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-submit {
+    text-align: center;
+    background-color: red;
+}
+
+.order-container {
+    margin: auto;
+    max-width: 600px;
+    padding: 2%;
+    width: 100%;
+}
+
+.order-form__section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.legend-title {
+    font-weight: 500;
+    color: limegreen;
+    font-family: "Oswald", sans-serif;
+}
+
+.form-labels {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 765px) {
+    .order-container {
+        max-width: 500px;
+    }
+}
